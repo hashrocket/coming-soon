@@ -1,0 +1,21 @@
+h1. Coming Soon
+
+A Sinatra app to collect email addresses of interested parties, pre-launch.
+
+h2. Running locally
+
+h3. Web Server
+
+<pre>ruby app.rb</pre>
+
+visit "http://localhost:4567":http://localhost:4576
+
+h3. Console
+
+<pre>irb -r app.rb</pre>
+
+h3. Gem Dependencies
+
+* sinatra
+* rack
+* rack-test

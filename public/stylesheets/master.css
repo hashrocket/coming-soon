@@ -1,0 +1,18 @@
+div#flash {
+  display: none;
+  margin-top: 16px;
+}
+
+div#flash .success,
+div#flash .error,
+div#flash .loading {
+  display: none;
+}
+
+div#flash .loading span.indicator{
+  background-image: url(/images/ajax-loader.gif);
+  display: inline-block;
+  width: 32px;
+  height: 32px;
+  vertical-align: middle
+}
